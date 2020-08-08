@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D5B057724C5999B0078E7B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5B057524C5999B0078E7B6 /* Main.storyboard */; };
+		5D5B057C24C59B420078E7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5B057A24C59B420078E7B6 /* LaunchScreen.storyboard */; };
+		5D5B96F824C5444E0064BCD7 /* FTC_ScoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B96F724C5444E0064BCD7 /* FTC_ScoutingTests.swift */; };
+		5D5D404024C616ED00361B20 /* mlg-startup.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5D403F24C616ED00361B20 /* mlg-startup.png */; };
 		5DAC791D24BED6D900FB82DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAC791C24BED6D900FB82DE /* AppDelegate.swift */; };
 		5DAC791F24BED6D900FB82DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAC791E24BED6D900FB82DE /* SceneDelegate.swift */; };
 		5DAC792124BED6D900FB82DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAC792024BED6D900FB82DE /* ViewController.swift */; };
-		5DAC792424BED6D900FB82DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAC792224BED6D900FB82DE /* Main.storyboard */; };
 		5DAC792624BED6DB00FB82DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAC792524BED6DB00FB82DE /* Assets.xcassets */; };
-		5DAC792924BED6DB00FB82DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAC792724BED6DB00FB82DE /* LaunchScreen.storyboard */; };
-		5DAC793424BED6DB00FB82DE /* FTC_ScoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAC793324BED6DB00FB82DE /* FTC_ScoutingTests.swift */; };
 		5DAC793F24BED6DB00FB82DE /* FTC_ScoutingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAC793E24BED6DB00FB82DE /* FTC_ScoutingUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,16 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D5B057624C5999B0078E7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5B057B24C59B420078E7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5B96F724C5444E0064BCD7 /* FTC_ScoutingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTC_ScoutingTests.swift; sourceTree = SOURCE_ROOT; };
+		5D5D403F24C616ED00361B20 /* mlg-startup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mlg-startup.png"; path = "Assets/Startup/mlg-startup.png"; sourceTree = "<group>"; };
+		5D74C2C924DE0C86006F0D1F /* FTC-Scouting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FTC-Scouting.entitlements"; sourceTree = "<group>"; };
 		5DAC791924BED6D900FB82DE /* FTC-Scouting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FTC-Scouting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAC791C24BED6D900FB82DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DAC791E24BED6D900FB82DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5DAC792024BED6D900FB82DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5DAC792324BED6D900FB82DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DAC792524BED6DB00FB82DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5DAC792824BED6DB00FB82DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DAC792A24BED6DB00FB82DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DAC792F24BED6DB00FB82DE /* FTC-ScoutingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FTC-ScoutingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DAC793324BED6DB00FB82DE /* FTC_ScoutingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTC_ScoutingTests.swift; sourceTree = "<group>"; };
 		5DAC793524BED6DB00FB82DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DAC793A24BED6DB00FB82DE /* FTC-ScoutingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FTC-ScoutingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAC793E24BED6DB00FB82DE /* FTC_ScoutingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTC_ScoutingUITests.swift; sourceTree = "<group>"; };
@@ -99,12 +102,14 @@
 		5DAC791B24BED6D900FB82DE /* FTC-Scouting */ = {
 			isa = PBXGroup;
 			children = (
+				5D74C2C924DE0C86006F0D1F /* FTC-Scouting.entitlements */,
 				5DAC791C24BED6D900FB82DE /* AppDelegate.swift */,
 				5DAC791E24BED6D900FB82DE /* SceneDelegate.swift */,
 				5DAC792024BED6D900FB82DE /* ViewController.swift */,
-				5DAC792224BED6D900FB82DE /* Main.storyboard */,
+				5D5B057524C5999B0078E7B6 /* Main.storyboard */,
+				5D5B057A24C59B420078E7B6 /* LaunchScreen.storyboard */,
+				5D5D403F24C616ED00361B20 /* mlg-startup.png */,
 				5DAC792524BED6DB00FB82DE /* Assets.xcassets */,
-				5DAC792724BED6DB00FB82DE /* LaunchScreen.storyboard */,
 				5DAC792A24BED6DB00FB82DE /* Info.plist */,
 			);
 			path = "FTC-Scouting";
@@ -113,8 +118,8 @@
 		5DAC793224BED6DB00FB82DE /* FTC-ScoutingTests */ = {
 			isa = PBXGroup;
 			children = (
-				5DAC793324BED6DB00FB82DE /* FTC_ScoutingTests.swift */,
 				5DAC793524BED6DB00FB82DE /* Info.plist */,
+				5D5B96F724C5444E0064BCD7 /* FTC_ScoutingTests.swift */,
 			);
 			path = "FTC-ScoutingTests";
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 					};
 					5DAC792E24BED6DB00FB82DE = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 						TestTargetID = 5DAC791824BED6D900FB82DE;
 					};
 					5DAC793924BED6DB00FB82DE = {
@@ -232,9 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAC792924BED6DB00FB82DE /* LaunchScreen.storyboard in Resources */,
 				5DAC792624BED6DB00FB82DE /* Assets.xcassets in Resources */,
-				5DAC792424BED6D900FB82DE /* Main.storyboard in Resources */,
+				5D5D404024C616ED00361B20 /* mlg-startup.png in Resources */,
+				5D5B057C24C59B420078E7B6 /* LaunchScreen.storyboard in Resources */,
+				5D5B057724C5999B0078E7B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAC793424BED6DB00FB82DE /* FTC_ScoutingTests.swift in Sources */,
+				5D5B96F824C5444E0064BCD7 /* FTC_ScoutingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,18 +304,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5DAC792224BED6D900FB82DE /* Main.storyboard */ = {
+		5D5B057524C5999B0078E7B6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DAC792324BED6D900FB82DE /* Base */,
+				5D5B057624C5999B0078E7B6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = "FTC-Scouting";
+			sourceTree = SOURCE_ROOT;
+			usesTabs = 0;
 		};
-		5DAC792724BED6DB00FB82DE /* LaunchScreen.storyboard */ = {
+		5D5B057A24C59B420078E7B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DAC792824BED6DB00FB82DE /* Base */,
+				5D5B057B24C59B420078E7B6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -434,16 +443,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FTC-Scouting/FTC-Scouting.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BK37X6SHR4;
+				DEVELOPMENT_TEAM = 72QG248FWM;
 				INFOPLIST_FILE = "FTC-Scouting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FTC-Scouting";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scouting.ftc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,16 +465,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FTC-Scouting/FTC-Scouting.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BK37X6SHR4;
+				DEVELOPMENT_TEAM = 72QG248FWM;
 				INFOPLIST_FILE = "FTC-Scouting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FTC-Scouting";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scouting.ftc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -473,6 +488,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BK37X6SHR4;
 				INFOPLIST_FILE = "FTC-ScoutingTests/Info.plist";
@@ -484,6 +500,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FTC-ScoutingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTC-Scouting.app/FTC-Scouting";
@@ -495,6 +512,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BK37X6SHR4;
 				INFOPLIST_FILE = "FTC-ScoutingTests/Info.plist";
