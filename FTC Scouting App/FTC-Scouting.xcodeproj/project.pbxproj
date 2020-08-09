@@ -16,6 +16,8 @@
 		5DAC792124BED6D900FB82DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAC792024BED6D900FB82DE /* ViewController.swift */; };
 		5DAC792624BED6DB00FB82DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAC792524BED6DB00FB82DE /* Assets.xcassets */; };
 		5DAC793F24BED6DB00FB82DE /* FTC_ScoutingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAC793E24BED6DB00FB82DE /* FTC_ScoutingUITests.swift */; };
+		5DBEC14724DE35BC003ABD96 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBEC14624DE35BC003ABD96 /* Stickers.xcassets */; };
+		5DBEC14B24DE35BC003ABD96 /* NeocraticStickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5DBEC14424DE35B6003ABD96 /* NeocraticStickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,28 @@
 			remoteGlobalIDString = 5DAC791824BED6D900FB82DE;
 			remoteInfo = "FTC-Scouting";
 		};
+		5DBEC14924DE35BC003ABD96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAC791124BED6D900FB82DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DBEC14324DE35B6003ABD96;
+			remoteInfo = NeocraticStickers;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DBEC14C24DE35BC003ABD96 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5DBEC14B24DE35BC003ABD96 /* NeocraticStickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5D5B057624C5999B0078E7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +75,9 @@
 		5DAC793A24BED6DB00FB82DE /* FTC-ScoutingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FTC-ScoutingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAC793E24BED6DB00FB82DE /* FTC_ScoutingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTC_ScoutingUITests.swift; sourceTree = "<group>"; };
 		5DAC794024BED6DB00FB82DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBEC14424DE35B6003ABD96 /* NeocraticStickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NeocraticStickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBEC14624DE35BC003ABD96 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		5DBEC14824DE35BC003ABD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +111,7 @@
 				5DAC791B24BED6D900FB82DE /* FTC-Scouting */,
 				5DAC793224BED6DB00FB82DE /* FTC-ScoutingTests */,
 				5DAC793D24BED6DB00FB82DE /* FTC-ScoutingUITests */,
+				5DBEC14524DE35B6003ABD96 /* NeocraticStickers */,
 				5DAC791A24BED6D900FB82DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +122,7 @@
 				5DAC791924BED6D900FB82DE /* FTC-Scouting.app */,
 				5DAC792F24BED6DB00FB82DE /* FTC-ScoutingTests.xctest */,
 				5DAC793A24BED6DB00FB82DE /* FTC-ScoutingUITests.xctest */,
+				5DBEC14424DE35B6003ABD96 /* NeocraticStickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +161,15 @@
 			path = "FTC-ScoutingUITests";
 			sourceTree = "<group>";
 		};
+		5DBEC14524DE35B6003ABD96 /* NeocraticStickers */ = {
+			isa = PBXGroup;
+			children = (
+				5DBEC14624DE35BC003ABD96 /* Stickers.xcassets */,
+				5DBEC14824DE35BC003ABD96 /* Info.plist */,
+			);
+			path = NeocraticStickers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,10 +180,12 @@
 				5DAC791524BED6D900FB82DE /* Sources */,
 				5DAC791624BED6D900FB82DE /* Frameworks */,
 				5DAC791724BED6D900FB82DE /* Resources */,
+				5DBEC14C24DE35BC003ABD96 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5DBEC14A24DE35BC003ABD96 /* PBXTargetDependency */,
 			);
 			name = "FTC-Scouting";
 			productName = "FTC-Scouting";
@@ -189,6 +228,21 @@
 			productReference = 5DAC793A24BED6DB00FB82DE /* FTC-ScoutingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5DBEC14324DE35B6003ABD96 /* NeocraticStickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBEC14F24DE35BC003ABD96 /* Build configuration list for PBXNativeTarget "NeocraticStickers" */;
+			buildPhases = (
+				5DBEC14224DE35B6003ABD96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeocraticStickers;
+			productName = NeocraticStickers;
+			productReference = 5DBEC14424DE35B6003ABD96 /* NeocraticStickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +265,9 @@
 						CreatedOnToolsVersion = 11.5;
 						TestTargetID = 5DAC791824BED6D900FB82DE;
 					};
+					5DBEC14324DE35B6003ABD96 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 				};
 			};
 			buildConfigurationList = 5DAC791424BED6D900FB82DE /* Build configuration list for PBXProject "FTC-Scouting" */;
@@ -229,6 +286,7 @@
 				5DAC791824BED6D900FB82DE /* FTC-Scouting */,
 				5DAC792E24BED6DB00FB82DE /* FTC-ScoutingTests */,
 				5DAC793924BED6DB00FB82DE /* FTC-ScoutingUITests */,
+				5DBEC14324DE35B6003ABD96 /* NeocraticStickers */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +314,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBEC14224DE35B6003ABD96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBEC14724DE35BC003ABD96 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +366,11 @@
 			isa = PBXTargetDependency;
 			target = 5DAC791824BED6D900FB82DE /* FTC-Scouting */;
 			targetProxy = 5DAC793B24BED6DB00FB82DE /* PBXContainerItemProxy */;
+		};
+		5DBEC14A24DE35BC003ABD96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DBEC14324DE35B6003ABD96 /* NeocraticStickers */;
+			targetProxy = 5DBEC14924DE35BC003ABD96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -375,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -429,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -446,6 +517,7 @@
 				CODE_SIGN_ENTITLEMENTS = "FTC-Scouting/FTC-Scouting.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 72QG248FWM;
 				INFOPLIST_FILE = "FTC-Scouting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -453,6 +525,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scouting.ftc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
@@ -468,6 +541,7 @@
 				CODE_SIGN_ENTITLEMENTS = "FTC-Scouting/FTC-Scouting.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 72QG248FWM;
 				INFOPLIST_FILE = "FTC-Scouting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -475,6 +549,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scouting.ftc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
@@ -570,6 +645,40 @@
 			};
 			name = Release;
 		};
+		5DBEC14D24DE35BC003ABD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 72QG248FWM;
+				INFOPLIST_FILE = NeocraticStickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scouting.ftc.NeocraticStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DBEC14E24DE35BC003ABD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 72QG248FWM;
+				INFOPLIST_FILE = NeocraticStickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scouting.ftc.NeocraticStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -605,6 +714,15 @@
 			buildConfigurations = (
 				5DAC794A24BED6DB00FB82DE /* Debug */,
 				5DAC794B24BED6DB00FB82DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBEC14F24DE35BC003ABD96 /* Build configuration list for PBXNativeTarget "NeocraticStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBEC14D24DE35BC003ABD96 /* Debug */,
+				5DBEC14E24DE35BC003ABD96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
