@@ -1,2 +1,2 @@
 # FTCScoutingApp
-Welcome to my only working (and active) github page! This is where I will post the FTC-Scouting app source code. (So you can judge me on my garbage code) So far, there only exists an iOS version, but fear not, an Android version is underway! (As soon as I finish the iOS app)
+Welcome to my only working (and active) github page! This is where I will post the FTC-Scouting app source code. (So you can judge me on my garbage code) So far, there only exists an iOS version, but fear not, an Android version is underway! (As soon as I finish the iOS app) Feel free to download the latest (and past) versions of the app here, you can also email me suggestions at my email, which is found in the app. Thanks -Koen
