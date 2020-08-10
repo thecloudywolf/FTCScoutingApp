@@ -1,6 +1,0 @@
-framework module Pods_FTC_ScoutingTests {
-  umbrella header "Pods-FTC-ScoutingTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
