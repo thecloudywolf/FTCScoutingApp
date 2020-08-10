@@ -1,0 +1,6 @@
+framework module Pods_NeocraticStickers {
+  umbrella header "Pods-NeocraticStickers-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E3D4691328C12A2AFFE285 /* Pods_FTC_Scouting_FTC_ScoutingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2116889B49E6AB7C7B8FB06A /* Pods_FTC_Scouting_FTC_ScoutingUITests.framework */; };
+		397EEE8B36158CB8556FD0E7 /* Pods_FTC_Scouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9FA7E7316A9B0EFDCCCE90 /* Pods_FTC_Scouting.framework */; };
+		5D5A031F24E105CB00B278CF /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5D5A031E24E105CB00B278CF /* IQKeyboardManagerSwift */; };
 		5D5B057724C5999B0078E7B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5B057524C5999B0078E7B6 /* Main.storyboard */; };
 		5D5B057C24C59B420078E7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5B057A24C59B420078E7B6 /* LaunchScreen.storyboard */; };
 		5D5B96F824C5444E0064BCD7 /* FTC_ScoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B96F724C5444E0064BCD7 /* FTC_ScoutingTests.swift */; };
@@ -18,6 +21,8 @@
 		5DAC793F24BED6DB00FB82DE /* FTC_ScoutingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAC793E24BED6DB00FB82DE /* FTC_ScoutingUITests.swift */; };
 		5DBEC14724DE35BC003ABD96 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBEC14624DE35BC003ABD96 /* Stickers.xcassets */; };
 		5DBEC14B24DE35BC003ABD96 /* NeocraticStickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5DBEC14424DE35B6003ABD96 /* NeocraticStickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C8EE79DD280A5F3FACC9E9E2 /* Pods_FTC_ScoutingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF091C96285C7E0065D56F3F /* Pods_FTC_ScoutingTests.framework */; };
+		DAA76CD8C14566A46B807B1B /* Pods_NeocraticStickers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DAF9C24A433EF847432E9C /* Pods_NeocraticStickers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2116889B49E6AB7C7B8FB06A /* Pods_FTC_Scouting_FTC_ScoutingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTC_Scouting_FTC_ScoutingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		281095B3CF9320EC4D5DE768 /* Pods-FTC-ScoutingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC-ScoutingTests.release.xcconfig"; path = "Target Support Files/Pods-FTC-ScoutingTests/Pods-FTC-ScoutingTests.release.xcconfig"; sourceTree = "<group>"; };
+		2ADF143F2160A544B929738B /* Pods-FTC-ScoutingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC-ScoutingTests.debug.xcconfig"; path = "Target Support Files/Pods-FTC-ScoutingTests/Pods-FTC-ScoutingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ABA6B23E7396FB54A7D4C15 /* Pods-FTC-Scouting-FTC-ScoutingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC-Scouting-FTC-ScoutingUITests.release.xcconfig"; path = "Target Support Files/Pods-FTC-Scouting-FTC-ScoutingUITests/Pods-FTC-Scouting-FTC-ScoutingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5D5B057624C5999B0078E7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D5B057B24C59B420078E7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D5B96F724C5444E0064BCD7 /* FTC_ScoutingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTC_ScoutingTests.swift; sourceTree = SOURCE_ROOT; };
@@ -78,6 +87,14 @@
 		5DBEC14424DE35B6003ABD96 /* NeocraticStickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NeocraticStickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBEC14624DE35BC003ABD96 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		5DBEC14824DE35BC003ABD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A4975AE9EA6D8D936C9104 /* Pods-FTC-Scouting-FTC-ScoutingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC-Scouting-FTC-ScoutingUITests.debug.xcconfig"; path = "Target Support Files/Pods-FTC-Scouting-FTC-ScoutingUITests/Pods-FTC-Scouting-FTC-ScoutingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC4C6B87ECD0278E204BEBA /* Pods-NeocraticStickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeocraticStickers.release.xcconfig"; path = "Target Support Files/Pods-NeocraticStickers/Pods-NeocraticStickers.release.xcconfig"; sourceTree = "<group>"; };
+		9D628812056FD8EA793464D0 /* Pods-NeocraticStickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeocraticStickers.debug.xcconfig"; path = "Target Support Files/Pods-NeocraticStickers/Pods-NeocraticStickers.debug.xcconfig"; sourceTree = "<group>"; };
+		B0DAF9C24A433EF847432E9C /* Pods_NeocraticStickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeocraticStickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC221987DB4489D7AA5B02F /* Pods-FTC-Scouting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC-Scouting.release.xcconfig"; path = "Target Support Files/Pods-FTC-Scouting/Pods-FTC-Scouting.release.xcconfig"; sourceTree = "<group>"; };
+		BE9FA7E7316A9B0EFDCCCE90 /* Pods_FTC_Scouting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTC_Scouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D4AE3190C12AC318583590 /* Pods-FTC-Scouting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC-Scouting.debug.xcconfig"; path = "Target Support Files/Pods-FTC-Scouting/Pods-FTC-Scouting.debug.xcconfig"; sourceTree = "<group>"; };
+		EF091C96285C7E0065D56F3F /* Pods_FTC_ScoutingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTC_ScoutingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397EEE8B36158CB8556FD0E7 /* Pods_FTC_Scouting.framework in Frameworks */,
+				5D5A031F24E105CB00B278CF /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8EE79DD280A5F3FACC9E9E2 /* Pods_FTC_ScoutingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +119,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E3D4691328C12A2AFFE285 /* Pods_FTC_Scouting_FTC_ScoutingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FAC2B085A4F55F316F7995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA76CD8C14566A46B807B1B /* Pods_NeocraticStickers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02271DA93D1F234C24BFA42D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE9FA7E7316A9B0EFDCCCE90 /* Pods_FTC_Scouting.framework */,
+				2116889B49E6AB7C7B8FB06A /* Pods_FTC_Scouting_FTC_ScoutingUITests.framework */,
+				EF091C96285C7E0065D56F3F /* Pods_FTC_ScoutingTests.framework */,
+				B0DAF9C24A433EF847432E9C /* Pods_NeocraticStickers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		110C75A23E5022FBA41ADB9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9D4AE3190C12AC318583590 /* Pods-FTC-Scouting.debug.xcconfig */,
+				BDC221987DB4489D7AA5B02F /* Pods-FTC-Scouting.release.xcconfig */,
+				61A4975AE9EA6D8D936C9104 /* Pods-FTC-Scouting-FTC-ScoutingUITests.debug.xcconfig */,
+				3ABA6B23E7396FB54A7D4C15 /* Pods-FTC-Scouting-FTC-ScoutingUITests.release.xcconfig */,
+				2ADF143F2160A544B929738B /* Pods-FTC-ScoutingTests.debug.xcconfig */,
+				281095B3CF9320EC4D5DE768 /* Pods-FTC-ScoutingTests.release.xcconfig */,
+				9D628812056FD8EA793464D0 /* Pods-NeocraticStickers.debug.xcconfig */,
+				9AC4C6B87ECD0278E204BEBA /* Pods-NeocraticStickers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5DAC791024BED6D900FB82DE = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +168,8 @@
 				5DAC793D24BED6DB00FB82DE /* FTC-ScoutingUITests */,
 				5DBEC14524DE35B6003ABD96 /* NeocraticStickers */,
 				5DAC791A24BED6D900FB82DE /* Products */,
+				110C75A23E5022FBA41ADB9A /* Pods */,
+				02271DA93D1F234C24BFA42D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DAC794324BED6DB00FB82DE /* Build configuration list for PBXNativeTarget "FTC-Scouting" */;
 			buildPhases = (
+				24709EAC9ACE795708875636 /* [CP] Check Pods Manifest.lock */,
 				5DAC791524BED6D900FB82DE /* Sources */,
 				5DAC791624BED6D900FB82DE /* Frameworks */,
 				5DAC791724BED6D900FB82DE /* Resources */,
@@ -188,6 +246,9 @@
 				5DBEC14A24DE35BC003ABD96 /* PBXTargetDependency */,
 			);
 			name = "FTC-Scouting";
+			packageProductDependencies = (
+				5D5A031E24E105CB00B278CF /* IQKeyboardManagerSwift */,
+			);
 			productName = "FTC-Scouting";
 			productReference = 5DAC791924BED6D900FB82DE /* FTC-Scouting.app */;
 			productType = "com.apple.product-type.application";
@@ -196,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DAC794624BED6DB00FB82DE /* Build configuration list for PBXNativeTarget "FTC-ScoutingTests" */;
 			buildPhases = (
+				7E6DE78DA4FC223A2153AAF5 /* [CP] Check Pods Manifest.lock */,
 				5DAC792B24BED6DB00FB82DE /* Sources */,
 				5DAC792C24BED6DB00FB82DE /* Frameworks */,
 				5DAC792D24BED6DB00FB82DE /* Resources */,
@@ -214,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DAC794924BED6DB00FB82DE /* Build configuration list for PBXNativeTarget "FTC-ScoutingUITests" */;
 			buildPhases = (
+				843DFFA4F472AF7C6320B853 /* [CP] Check Pods Manifest.lock */,
 				5DAC793624BED6DB00FB82DE /* Sources */,
 				5DAC793724BED6DB00FB82DE /* Frameworks */,
 				5DAC793824BED6DB00FB82DE /* Resources */,
@@ -232,7 +295,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DBEC14F24DE35BC003ABD96 /* Build configuration list for PBXNativeTarget "NeocraticStickers" */;
 			buildPhases = (
+				817E120C162239E31C2AC963 /* [CP] Check Pods Manifest.lock */,
 				5DBEC14224DE35B6003ABD96 /* Resources */,
+				E5FAC2B085A4F55F316F7995 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,6 +344,9 @@
 				Base,
 			);
 			mainGroup = 5DAC791024BED6D900FB82DE;
+			packageReferences = (
+				5D5A031D24E105CB00B278CF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 5DAC791A24BED6D900FB82DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -326,6 +394,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24709EAC9ACE795708875636 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTC-Scouting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6DE78DA4FC223A2153AAF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTC-ScoutingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817E120C162239E31C2AC963 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeocraticStickers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843DFFA4F472AF7C6320B853 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTC-Scouting-FTC-ScoutingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DAC791524BED6D900FB82DE /* Sources */ = {
@@ -512,12 +671,13 @@
 		};
 		5DAC794424BED6DB00FB82DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D4AE3190C12AC318583590 /* Pods-FTC-Scouting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "FTC-Scouting/FTC-Scouting.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 72QG248FWM;
 				INFOPLIST_FILE = "FTC-Scouting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -525,7 +685,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scouting.ftc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
@@ -536,12 +696,13 @@
 		};
 		5DAC794524BED6DB00FB82DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC221987DB4489D7AA5B02F /* Pods-FTC-Scouting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "FTC-Scouting/FTC-Scouting.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 72QG248FWM;
 				INFOPLIST_FILE = "FTC-Scouting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -549,7 +710,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scouting.ftc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
@@ -560,6 +721,7 @@
 		};
 		5DAC794724BED6DB00FB82DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADF143F2160A544B929738B /* Pods-FTC-ScoutingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -584,6 +746,7 @@
 		};
 		5DAC794824BED6DB00FB82DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281095B3CF9320EC4D5DE768 /* Pods-FTC-ScoutingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -607,6 +770,7 @@
 		};
 		5DAC794A24BED6DB00FB82DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A4975AE9EA6D8D936C9104 /* Pods-FTC-Scouting-FTC-ScoutingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -627,6 +791,7 @@
 		};
 		5DAC794B24BED6DB00FB82DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABA6B23E7396FB54A7D4C15 /* Pods-FTC-Scouting-FTC-ScoutingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -647,14 +812,15 @@
 		};
 		5DBEC14D24DE35BC003ABD96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D628812056FD8EA793464D0 /* Pods-NeocraticStickers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 72QG248FWM;
 				INFOPLIST_FILE = NeocraticStickers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scouting.ftc.NeocraticStickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -664,14 +830,15 @@
 		};
 		5DBEC14E24DE35BC003ABD96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC4C6B87ECD0278E204BEBA /* Pods-NeocraticStickers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 72QG248FWM;
 				INFOPLIST_FILE = NeocraticStickers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scouting.ftc.NeocraticStickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -728,6 +895,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D5A031D24E105CB00B278CF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D5A031E24E105CB00B278CF /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D5A031D24E105CB00B278CF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5DAC791124BED6D900FB82DE /* Project object */;
 }
